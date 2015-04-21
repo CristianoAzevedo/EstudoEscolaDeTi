@@ -10,7 +10,7 @@ appModule.config(function($locationProvider, $routeProvider) {
 });
 
 appModule.service('beerService', function($http) {
-    var rota = '/Beers';
+    var rota = '/beers';
     this.getAll = function() {
         return $http.get(rota);
     };
