@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/Beers")
+@RequestMapping(value = "/beers")
 public class BeerController {
     @Autowired
     private BeerService beerService;
